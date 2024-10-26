@@ -35,9 +35,9 @@ vector<vector<long long>> multiply(const vector<vector<long long>>& a, const vec
     return result;
 }
 
-// Exponentiate the matrix using binary exponentiation
+
 vector<vector<long long>> matrixPower(vector<vector<long long>> base, int n) {
-    vector<vector<long long>> result = {{1, 0}, {0, 1}}; // Identity matrix
+    vector<vector<long long>> result = {{1, 0}, {0, 1}};
 
     while (n > 0) {
         if (n % 2 == 1)
@@ -48,7 +48,6 @@ vector<vector<long long>> matrixPower(vector<vector<long long>> base, int n) {
     return result;
 }
 
-// Function to return the nth Fibonacci number
 unsigned long long MatrixMultiplicationFibonacci(int n) {
     if (n == 0)
         return 0;
@@ -69,6 +68,6 @@ int main(){
     unsigned long long MatrixMultiplicationFibResult = MatrixMultiplicationFibonacci(n);
     cout << "Recursive Fibonacci result : " << recFibResult<<'\n';
     cout << "Dynamic Programming Fibonacci result : " << DPFibResult << '\n';
-    cout << "Matrix Multiplication Fibonacci result : "<< MatrixMultiplicationFibonacci(n)<<'\n';
+    cout << "Matrix Multiplication Fibonacci result : "<< MatrixMultiplicationFibResult<<'\n';
     
 }
