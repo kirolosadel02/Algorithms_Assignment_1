@@ -1,0 +1,3 @@
+D:/Third Year Kirolos/Algorithms/Algorithms_Assignment_1/cmake-build-debug/CMakeFiles/Algorithms_Assignment_1.dir
+D:/Third Year Kirolos/Algorithms/Algorithms_Assignment_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Third Year Kirolos/Algorithms/Algorithms_Assignment_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
